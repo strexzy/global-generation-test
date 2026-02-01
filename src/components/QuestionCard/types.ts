@@ -1,4 +1,4 @@
-export type TipTapNode = any; // minimal typing for TipTap JSON
+export type TipTapNode = any;
 
 export type AnswerOption = {
   id: string;

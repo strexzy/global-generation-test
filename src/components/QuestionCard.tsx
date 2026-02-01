@@ -84,7 +84,6 @@ export default function QuestionCard({ question, onCheck }: Props) {
         onSelect={handleSelect}
         isChecked={isChecked}
         questionId={question.id}
-        isDemo={question.isDemo}
       />
 
       <ActionBar
@@ -92,7 +91,6 @@ export default function QuestionCard({ question, onCheck }: Props) {
         isLoading={isLoading}
         onCheck={handleCheck}
         error={error}
-        isDemo={question.isDemo}
       />
 
       <Explanation
