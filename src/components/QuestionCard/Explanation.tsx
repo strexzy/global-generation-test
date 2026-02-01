@@ -68,7 +68,9 @@ export default function Explanation({
               </div>
             </div>
           ) : (
-            <div className={clsx(isDemo ? "blur-sm" : "")}>{explanation}</div>
+            <div className={clsx(isDemo ? "blur-sm" : "")}>
+              Пояснение доступно только в полной версии!
+            </div>
           )}
         </div>
       </div>

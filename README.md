@@ -2,6 +2,8 @@
 
 Небольшое демо‑приложение с карточками вопросов (React, TypeScript, Vite, Tailwind, TipTap, KaTeX).
 
+Опробовать приложение можно по ссылке (Vercel deployment): https://global-generation-test.vercel.app/
+
 ---
 
 ## Быстрый старт
